@@ -137,3 +137,5 @@ MEDIA_ROOT = os.path.join(BASE_DIR, 'media')
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 AUTH_USER_MODEL = 'app.User'
+
+CSRF_TRUSTED_ORIGINS = ['https://*.railway.app','https://profillebuilder-production.up.railway.app/']
